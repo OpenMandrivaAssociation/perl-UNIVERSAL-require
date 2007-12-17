@@ -20,7 +20,6 @@ BuildRequires:	perl-devel
 Conflicts:	    perl-UNIVERSAL-exports < 0.03-3mdk
 BuildRequires:	perl(Test::More) >= 0.47
 BuildArch:	    noarch
-BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
 %description
 This module creates a universal require() class method that will work with
