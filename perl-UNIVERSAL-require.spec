@@ -2,7 +2,7 @@
 %define name	perl-%{module}
 %define	modprefix UNIVERSAL
 %define version	0.11
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 %define _provides_exceptions perl(UNIVERSAL)
 
