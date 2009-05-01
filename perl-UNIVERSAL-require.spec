@@ -1,8 +1,8 @@
 %define module	UNIVERSAL-require
 %define name	perl-%{module}
 %define	modprefix UNIVERSAL
-%define version	0.11
-%define release	%mkrel 5
+%define version	0.13
+%define release	%mkrel 1
 
 %define _provides_exceptions perl(UNIVERSAL)
 
