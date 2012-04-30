@@ -15,6 +15,7 @@ Source0:	http://www.cpan.org/modules/by-module/UNIVERSAL/%{upstream_name}-%{upst
 
 Conflicts:	    perl-UNIVERSAL-exports < 0.03-3mdk
 BuildRequires:	perl(Test::More) >= 0.47
+BuildRequires:	perl-devel
 BuildArch:	    noarch
 BuildRoot:	    %{_tmppath}/%{name}-%{version}-%{release}
 
