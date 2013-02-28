@@ -12,11 +12,11 @@ License:	GPLv2 or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
 Source0:	http://www.cpan.org/modules/by-module/UNIVERSAL/%{upstream_name}-%{upstream_version}.tar.bz2
-
-Conflicts:		perl-UNIVERSAL-exports < 0.03-3mdk
+Source1:	perl-UNIVERSAL-require.rpmlintrc
+Conflicts:	perl-UNIVERSAL-exports < 0.03-3mdk
 BuildRequires:	perl(Test::More) >= 0.47
 BuildRequires:	perl-devel
-BuildArch:		noarch
+BuildArch:	noarch
 
 %description
 This module creates a universal require() class method that will work with
