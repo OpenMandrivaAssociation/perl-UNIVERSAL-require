@@ -1,17 +1,17 @@
 %define upstream_name UNIVERSAL-require
-%define upstream_version 0.13
+%define upstream_version 0.15
 
 %define _provides_exceptions perl(UNIVERSAL)
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Require modules from a variable
 License:	GPLv2 or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/modules/by-module/UNIVERSAL/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	http://www.cpan.org/modules/by-module/UNIVERSAL/UNIVERSAL-require-%{upstream_version}.tar.gz
 Source1:	perl-UNIVERSAL-require.rpmlintrc
 Conflicts:	perl-UNIVERSAL-exports < 0.03-3mdk
 BuildRequires:	perl(Test::More) >= 0.47
@@ -70,4 +70,5 @@ every Perl module and is secure.
 
   + Thierry Vignaud <tv@mandriva.org>
     - kill re-definition of %%buildroot on Pixel's request
+
 
