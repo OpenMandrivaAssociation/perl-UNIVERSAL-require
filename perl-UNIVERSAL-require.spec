@@ -1,11 +1,11 @@
 %define upstream_name	 UNIVERSAL-require
-%define upstream_version 0.15
+%define upstream_version 0.16
 
 %define __noautoprov 'perl\\(UNIVERSAL\\)'
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    2
+Release:    1
 
 Summary:	Require modules from a variable
 License:	GPLv2 or Artistic
@@ -40,3 +40,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 %files
 %{perl_vendorlib}/UNIVERSAL
 %{_mandir}/*/*
+
