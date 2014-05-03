@@ -1,5 +1,5 @@
 %define upstream_name	 UNIVERSAL-require
-%define upstream_version 0.16
+%define upstream_version 0.17
 
 %define __noautoprov 'perl\\(UNIVERSAL\\)'
 
@@ -8,10 +8,11 @@ Version:    %perl_convert_version %{upstream_version}
 Release:    1
 
 Summary:	Require modules from a variable
+
 License:	GPLv2 or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/modules/by-module/UNIVERSAL/UNIVERSAL-require-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/UNIVERSAL/%{upstream_name}-%{upstream_version}.tar.gz
 
 Conflicts:	    perl-UNIVERSAL-exports < 0.03-3mdk
 BuildRequires:	perl(Test::More) >= 0.47
@@ -40,4 +41,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 %files
 %{perl_vendorlib}/UNIVERSAL
 %{_mandir}/*/*
+
 
