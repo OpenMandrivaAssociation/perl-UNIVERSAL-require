@@ -1,7 +1,2 @@
-removed_sources:
-  UNIVERSAL-require-0.13.tar.bz2: 42cea3b7c3c2dce4fcb929479372e650b6f54105
-  UNIVERSAL-require-0.15.tar.gz: 92f9374f7d254759ba0de32daf023dea14c019fd
-  UNIVERSAL-require-0.16.tar.gz: 29c7d861367ac00d19ac8d03ad40afa571a02d57
 sources:
-  UNIVERSAL-require-0.17.tar.gz: 49b43e371ba5cb68d30a79133d671ce11b12491b
-  UNIVERSAL-require-0.18.tar.gz: 070745bffcf29cc5c09ed2c87d040993436f0727
+  UNIVERSAL-require-0.19.tar.gz: 09641a43e4d3ff5d579ffd0481c230e1f90ff4b7

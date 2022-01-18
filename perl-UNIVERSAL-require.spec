@@ -1,5 +1,5 @@
 %define upstream_name	 UNIVERSAL-require
-%define upstream_version 0.18
+%define upstream_version 0.19
 
 %define __noautoprov 'perl\\(UNIVERSAL\\)'
 
