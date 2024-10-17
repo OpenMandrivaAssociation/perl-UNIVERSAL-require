@@ -11,7 +11,7 @@ Summary:	Require modules from a variable
 
 License:	GPLv2 or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}/
+Url:		https://search.cpan.org/dist/%{upstream_name}/
 Source0:	http://www.cpan.org/modules/by-module/UNIVERSAL/%{upstream_name}-%{upstream_version}.tar.gz
 
 Conflicts:	    perl-UNIVERSAL-exports < 0.03-3mdk
