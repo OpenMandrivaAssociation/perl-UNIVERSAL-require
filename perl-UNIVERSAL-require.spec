@@ -15,6 +15,7 @@ Url:		https://search.cpan.org/dist/%{upstream_name}/
 Source0:	http://www.cpan.org/modules/by-module/UNIVERSAL/%{upstream_name}-%{upstream_version}.tar.gz
 
 Conflicts:	    perl-UNIVERSAL-exports < 0.03-3mdk
+BuildRequires:	make
 BuildRequires:	perl(Test::More) >= 0.47
 BuildRequires:	perl-devel
 BuildArch:	    noarch
