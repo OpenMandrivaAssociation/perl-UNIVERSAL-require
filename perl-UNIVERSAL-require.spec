@@ -4,15 +4,15 @@
 %define __noautoprov 'perl\\(UNIVERSAL\\)'
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:    1
+Version:    %{upstream_version}
+Release:    2
 
 Summary:	Require modules from a variable
 
 License:	GPLv2 or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://www.cpan.org/modules/by-module/UNIVERSAL/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/neilbowers/UNIVERSAL-require
+Source0:	https://cpan.metacpan.org/authors/id/N/NE/NEILB/UNIVERSAL-require-%{upstream_version}.tar.gz
 
 Conflicts:	    perl-UNIVERSAL-exports < 0.03-3mdk
 BuildRequires:	make
