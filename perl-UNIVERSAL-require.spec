@@ -1,18 +1,16 @@
 %define upstream_name	 UNIVERSAL-require
-%define upstream_version 0.19
-
 %define __noautoprov 'perl\\(UNIVERSAL\\)'
 
 Name:       perl-%{upstream_name}
-Version:    %{upstream_version}
-Release:    2
+Version:    0.19
+Release:    3
 
 Summary:	Require modules from a variable
 
 License:	GPLv2 or Artistic
 Group:		Development/Perl
 Url:		https://github.com/neilbowers/UNIVERSAL-require
-Source0:	https://cpan.metacpan.org/authors/id/N/NE/NEILB/UNIVERSAL-require-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/N/NE/NEILB/UNIVERSAL-require-%{version}.tar.gz
 
 Conflicts:	    perl-UNIVERSAL-exports < 0.03-3mdk
 BuildRequires:	make
@@ -25,7 +23,7 @@ This module creates a universal require() class method that will work with
 every Perl module and is secure.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
